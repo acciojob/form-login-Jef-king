@@ -1,4 +1,5 @@
 function getFormvalue() {
-    //Write your code here
-
+    let x=document.querySelector("#fname").value;
+	let y=document.querySelector("#lname").value;
+	alert(x+" "+y);
 }
